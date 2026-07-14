@@ -1,0 +1,110 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "a882f5d2-2421-4864-987f-3efe8780937c")
+	(paper "A4")
+	(title_block
+		(title "Capacitive Moisture Sensor")
+		(date "2026-06-13")
+	)
+	(lib_symbols)
+	(sheet
+		(at 161.29 80.01)
+		(size 109.22 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "0506b34d-c684-4e81-9032-608d265cced7")
+		(property "Sheetname" "Stm32_IC"
+			(at 161.29 79.2984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Stm32_IC.kicad_sch"
+			(at 161.29 121.2346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "moisture_sensor"
+				(path "/a882f5d2-2421-4864-987f-3efe8780937c"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 41.91 78.74)
+		(size 99.06 41.91)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "50b6ce7a-862f-4bcd-81a8-68f985955a71")
+		(property "Sheetname" "Solar_power_input"
+			(at 41.91 78.0284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Solar_power_input.kicad_sch"
+			(at 41.91 121.2346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "moisture_sensor"
+				(path "/a882f5d2-2421-4864-987f-3efe8780937c"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
